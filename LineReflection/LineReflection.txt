@@ -1,0 +1,78 @@
+Test 0
+input begin
+2
+1 1
+-1 1
+input end
+
+output begin
+true
+output end
+
+Test 1
+
+input begin
+2
+1 1
+-1 -1
+input end
+
+output begin
+false
+output end
+
+Test 2
+
+input begin
+3
+1 1
+-1 -1
+2 1
+input end
+
+output begin
+false
+output end
+
+Test 3
+
+input begin
+3
+1 1
+-1 1
+0 -2
+input end
+
+output begin
+true
+output end
+
+
+Test 4
+
+input begin
+2
+1 1
+1 -100
+input end
+
+output begin
+true
+output end
+
+
+Test 5
+
+input begin
+5
+-2 1
+-1 1
+0 1
+1 1
+2 1
+input end
+
+output begin
+true
+output end
+
